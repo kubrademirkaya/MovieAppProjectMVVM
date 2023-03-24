@@ -13,6 +13,8 @@
 		E0CAA62E29CD520B008DD421 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CAA62D29CD520B008DD421 /* WebService.swift */; };
 		E0CAA63129CD55BE008DD421 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CAA63029CD55BE008DD421 /* Constant.swift */; };
 		E0CAA63329CD55DB008DD421 /* ServiceConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CAA63229CD55DB008DD421 /* ServiceConstant.swift */; };
+		E0CAA63829CD6216008DD421 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CAA63729CD6216008DD421 /* TypeAlias.swift */; };
+		E0CAA63B29CD660A008DD421 /* MovieHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CAA63A29CD660A008DD421 /* MovieHomeCell.swift */; };
 		E0FD193D29CCFC0500618FC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FD193C29CCFC0500618FC6 /* AppDelegate.swift */; };
 		E0FD193F29CCFC0500618FC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FD193E29CCFC0500618FC6 /* SceneDelegate.swift */; };
 		E0FD194629CCFC0600618FC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0FD194529CCFC0600618FC6 /* Assets.xcassets */; };
@@ -29,6 +31,8 @@
 		E0CAA62D29CD520B008DD421 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		E0CAA63029CD55BE008DD421 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		E0CAA63229CD55DB008DD421 /* ServiceConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceConstant.swift; sourceTree = "<group>"; };
+		E0CAA63729CD6216008DD421 /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
+		E0CAA63A29CD660A008DD421 /* MovieHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieHomeCell.swift; sourceTree = "<group>"; };
 		E0FD193929CCFC0500618FC6 /* MovieAppProjectMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieAppProjectMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0FD193C29CCFC0500618FC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0FD193E29CCFC0500618FC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,22 @@
 			path = Constant;
 			sourceTree = "<group>";
 		};
+		E0CAA63629CD61F3008DD421 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E0CAA63729CD6216008DD421 /* TypeAlias.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E0CAA63929CD65DB008DD421 /* MovieHomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				E0CAA63A29CD660A008DD421 /* MovieHomeCell.swift */,
+			);
+			path = MovieHomeCell;
+			sourceTree = "<group>";
+		};
 		E0FD193029CCFC0500618FC6 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +117,7 @@
 		E0FD193B29CCFC0500618FC6 /* MovieAppProjectMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				E0CAA63629CD61F3008DD421 /* Helper */,
 				E0CAA62F29CD55B1008DD421 /* Constant */,
 				E0FD195B29CD050500618FC6 /* Model */,
 				E0FD195829CD04B900618FC6 /* Service */,
@@ -136,8 +157,8 @@
 		E0FD195329CCFCB200618FC6 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				E0CAA63929CD65DB008DD421 /* MovieHomeCell */,
 				E0FD195C29CD051200618FC6 /* HomeViewModel */,
-				E0FD195629CCFEAF00618FC6 /* MovieHomeController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -195,6 +216,7 @@
 		E0FD195C29CD051200618FC6 /* HomeViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				E0FD195629CCFEAF00618FC6 /* MovieHomeController.swift */,
 			);
 			path = HomeViewModel;
 			sourceTree = "<group>";
@@ -316,6 +338,8 @@
 				E0CAA63129CD55BE008DD421 /* Constant.swift in Sources */,
 				E0CAA62E29CD520B008DD421 /* WebService.swift in Sources */,
 				E0CAA62A29CD4DEF008DD421 /* MovieModel.swift in Sources */,
+				E0CAA63B29CD660A008DD421 /* MovieHomeCell.swift in Sources */,
+				E0CAA63829CD6216008DD421 /* TypeAlias.swift in Sources */,
 				E0CAA63329CD55DB008DD421 /* ServiceConstant.swift in Sources */,
 				E0FD195729CCFEAF00618FC6 /* MovieHomeController.swift in Sources */,
 				E0FD193D29CCFC0500618FC6 /* AppDelegate.swift in Sources */,
